@@ -1,8 +1,11 @@
 <script>
   import svelteLogo from "./assets/svelte.svg";
   import Counter from "./lib/Counter.svelte";
+  import NavBar from "./lib/Nav.svelte";
+  import Chart from "./lib/Chart.svelte";
 </script>
 
+<NavBar />
 <main>
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
@@ -27,6 +30,7 @@
   </p>
 
   <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p>
+  <Chart />
 </main>
 
 <style>
